@@ -1,0 +1,62 @@
+body {
+    font-family: "Noto Sans", Courier, monospace;
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 0 0 ;
+}
+section {
+    display: flex;
+    justify-content: space-evenly;
+    width: 760px;
+    padding: 15px 0px 50px 15px;
+    margin: 0;
+    background-color: white;
+}
+.cancelar {
+    justify-content: start;
+    align-items: center;
+    width: 172px;
+    height: 56px;
+    border-radius: 5px;
+    border: 1px #5d5fef solid;
+    color: #5d5fef;
+}
+.enviar {
+    justify-content: end;
+    align-items: center;
+    width: 172px;
+    height: 56px;
+    border-radius: 5px;
+    border: 1px #5d5fef solid;
+    color: white;
+    background-color: #5d5fef;
+}
+.boton-contenedor {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+.barra {
+    width: 564px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px gray solid;
+    padding: 10px;
+}
+/* Buttons */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px;
+gap: 10px;
+
+margin: 0 auto;
+width: 172px;
+height: 56px;
+
+/* Iris/100 */
+background: #5D5FEF;
+border-radius: 8px;
